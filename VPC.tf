@@ -77,4 +77,5 @@ resource "aws_route_table_association" "Route2" {
   resource "aws_route_table_association" "Route3" {
     subnet_id = aws_subnet.Subnet3.id
     route_table_id = aws_route_table.Main_Route.id
+    
     }
