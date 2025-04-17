@@ -3,17 +3,8 @@ variable "VPC_ID" {
   
 }
 
-variable "Subnet1_ID" {
-    description = "Subnet 1 ID"
-  
-}
-
-variable "Subnet2_ID" {
-  description = "Subnet 2 ID"
-}
-
-variable "Subnet3_ID" {
-    description = "Subnet 3 ID"
+variable "Subnet_ID" {
+    description = "Subnet ID"
   
 }
 
