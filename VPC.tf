@@ -1,8 +1,3 @@
-provider "aws" {
-  alias  = "ap-south-1"
-  region = "ap-south-1"
-}
-
 resource "aws_vpc" "Main_VPC" {
   cidr_block = "10.0.0.0/16"
 
@@ -78,11 +73,5 @@ resource "aws_route_table_association" "Route2" {
 resource "aws_route_table_association" "Route3" {
   subnet_id      = aws_subnet.Subnet3.id
   route_table_id = aws_route_table.Main_Route.id
-
-}
-
-output "vpc_id" {
-  description = "Main VPC ID"
-  value       = resource.aws_vpc.Main_VPC.id
 
 }

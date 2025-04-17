@@ -1,0 +1,7 @@
+Subnet1_ID = "subnet-0943aafad8dd4566b"
+Subnet2_ID = "subnet-06b2fe482f08975fe"
+Subnet3_ID = "subnet-047160519ab32f91c"
+VPC_ID = "vpc-0e856ac4537461a88"
+instace_type = "t2.micro"
+Security_Group = "sg-08273e3a5eb9072a8"
+AMI = "ami-0e35ddab05955cf57"
