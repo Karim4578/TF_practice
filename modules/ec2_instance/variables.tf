@@ -19,3 +19,16 @@ variable "AMI" {
     description = "AMI ID"
   
 }
+variable "Name" {
+    description = "instnace name"
+  
+}
+
+variable "Node_Details" {
+    type = map(string)
+    default = {
+      "Env" = "Default"
+    }
+  
+}
+
