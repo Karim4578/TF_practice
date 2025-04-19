@@ -1,3 +1,5 @@
+/*
+
 module "My_Instance2" {
     source = "./modules/ec2_instance"
     instace_type = "t2.micro"
@@ -12,3 +14,5 @@ module "My_Instance2" {
     }
 
    }
+
+*/
